@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from '../style'
-import heroImg from "../imgs/heroTwo.png"
 import Button from './Button'
-
 const Hero = () => {
   return (
     <section id='home' className={`flex md:flex-row flex-col sm:py-10 py-6`}>
@@ -21,13 +19,14 @@ const Hero = () => {
 
         </div>
 
-        <div className='flex justify-between items-center gap-5'>
+        <div className='flex sm:flex-row flex-col justify-center items-center gap-5'>
           <Button
             value="Download CV" />
           <Button
             value="About Me" />
         </div>
       </div>
+
 
 
       {/* Right side of the side */}
