@@ -2,12 +2,12 @@ import React from 'react'
 import Bar from './Bar'
 const Technologies = () => {
   return (
-    <div>
+    <div id='Skills'>
       {/* SectionName */}
       <Bar />
       <div className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[40px] text-[25px] text-white ss:leading-[100px] leading-[75px]'>
-          Technologies & Skills
+          Skills & Technologies
         </h1>
       </div>
       <div className='grid sm:grid-cols-2 grid-cols-1 '>

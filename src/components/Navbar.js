@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { logo, close, menu } from "../assets"
+import { close, menu } from "../assets"
+import Logo from './Logo';
 
 const Navbar = () => {
   const navLinks = [
@@ -8,11 +9,11 @@ const Navbar = () => {
       title: "Projects",
     },
     {
-      id: "Technologies",
-      title: "Technologies",
+      id: "Skills",
+      title: "Skills",
     },
     {
-      id: "About Me",
+      id: "AboutMe",
       title: "About Me",
     },
     {
@@ -28,13 +29,13 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="Logo" className='w-28 h-10' />
+    <nav className='w-full flex py-6 justify-between items-center navbar '>
+      <Logo />
       <ul className='list-non sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, i) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white ${i === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+            className={`font-poppins font-normal cursor-pointer text-[19px] text-white hover:text-[rgb(55,189,208)]  ${i === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
           >
             <a href={`#${nav.id}`} >
               {nav.title}

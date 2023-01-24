@@ -6,6 +6,7 @@ import Projects from './components/projects';
 import Technologies from './components/Technologies';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
@@ -27,7 +28,7 @@ const App = () => {
           <Technologies />
           <About />
           <Contact />
-          {/*<Footer /> */}
+          <Footer />
         </div>
 
       </div>

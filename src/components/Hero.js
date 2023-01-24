@@ -13,8 +13,8 @@ const Hero = () => {
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[65px] text-[42px] text-white ss:leading-[100px] leading-[75px]'>
-            I am A Full Stack Web Developer
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100px] leading-[75px]'>
+            I am A Full Stack <br className='sm:block hidden' />Web Developer
           </h1>
 
         </div>

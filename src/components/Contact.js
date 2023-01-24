@@ -7,12 +7,12 @@ const Contact = () => {
     <div>
       {/* SectionName */}
       <Bar />
-      <div className='flex flex-row justify-between items-center w-full'>
+      <div id='Contact' className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[40px] text-[25px] text-white ss:leading-[100px] leading-[75px]'>
           Contact
         </h1>
       </div>
-      <div className="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <div className="block w-full p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 ">
         <form >
           <label for="website-admin" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
           <div class="flex py-6">

@@ -7,7 +7,7 @@ const projects = () => {
     <div>
       {/* SectionName */}
       <Bar />
-      <div className='flex flex-row justify-between items-center w-full'>
+      <div id='Projects' className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-semibold ss:text-[50px] text-[30px] text-white ss:leading-[100px] leading-[75px]'>
           Projects
         </h1>
