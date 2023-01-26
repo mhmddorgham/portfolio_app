@@ -20,8 +20,10 @@ const Hero = () => {
         </div>
 
         <div className='flex sm:flex-row flex-col justify-center items-center gap-5'>
-          <Button
-            value="Download CV" />
+          <a href='../constants/mhmd_CV.pdf' download="mhmd_CV.pdf">
+            <Button
+              value="Download CV" />
+          </a>
           <Button
             value="About Me" />
         </div>
