@@ -1,7 +1,27 @@
 import React from 'react'
 import styles from '../style'
-import Button from './Button'
+import Button from './Button';
+
+
 const Hero = () => {
+
+  // Function will execute on click of button
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('mhmd_CV.pdf').then(response => {
+      response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'mhmd_CV.pdf';
+        alink.click();
+      })
+    })
+  }
+
+
   return (
     <section id='home' className={`flex md:flex-row flex-col sm:py-10 py-6`}>
       {/* Left side of the dive */}
@@ -20,10 +40,7 @@ const Hero = () => {
         </div>
 
         <div className='flex sm:flex-row flex-col justify-center items-center gap-5'>
-          <a href='../constants/mhmd_CV.pdf' download="mhmd_CV.pdf">
-            <Button
-              value="Download CV" />
-          </a>
+          <button onClick={onButtonClick} type='button' className='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-xl ' >Download CV</button>
           <Button
             value="About Me" />
         </div>
