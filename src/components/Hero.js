@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from '../style'
-import Button from './Button';
-
 
 const Hero = () => {
 
@@ -41,8 +39,7 @@ const Hero = () => {
 
         <div className='flex sm:flex-row flex-col justify-center items-center gap-5'>
           <button onClick={onButtonClick} type='button' className='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-xl ' >Download CV</button>
-          <Button
-            value="About Me" />
+          <a href='#AboutMe'> <button type='button' className='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-xl ' >About Me</button></a>
         </div>
       </div>
 
