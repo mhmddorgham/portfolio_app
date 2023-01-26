@@ -2,17 +2,23 @@ import React from 'react'
 import Bar from './Bar'
 import { features } from '../constants/constants'
 
-const FeatureCard = ({ icon, title, content, index }) => (
+const FeatureCard = ({ icon, title, content1, content2, content3, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] mb-6 feature-card`}>
     <div className={`w-[64px] h-[64px] rounded-full flex justify-center items-center bg-dimBlue`}>
       <img src={icon} alt='icon' className='w-[50%] h-[50%] object-contain' />
     </div>
     <div className='flex flex-1 flex-col ml-3'>
-      <h4 className='font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1'>
+      <h4 className='font-poppins font-semibold text-white text-[27px] leading-[25px] mb-1 '>
         {title}
       </h4>
-      <p className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
-        {content}
+      <p className='font-poppins font-normal text-dimWhite text-[20px] leading-[35px] mb-1 p-3'>
+        {content1}
+      </p>
+      <p className='font-poppins font-normal text-dimWhite text-[20px] leading-[35px] mb-1 p-3'>
+        {content2}
+      </p>
+      <p className='font-poppins font-normal text-dimWhite text-[20px] leading-[35px] mb-1 p-3'>
+        {content3}
       </p>
     </div>
   </div>

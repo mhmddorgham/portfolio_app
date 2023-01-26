@@ -3,36 +3,32 @@ import { star, facebook, instagram, linkedin, twitter } from "../assets";
 export const projectsList = [
   {
     title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "I used React, Node.js, Express & MongoDB to build MERN Memories Application. It is a simple social media app that allows users to post interesting events that happened in their lives.",
     image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
     title: 'E-Commerce',
-    description: "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description: "I used React & JavaScript, ExpressJs and MongoDB to build this e-commerce website. Additionally, I used Stripe for card transactions. It is a simple e-commerce site that represents products and product categories with the ability to add items to the card and purchases using a credit card",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: '/images/1.png',
-    tags: ['React', 'WebRTC'],
+    title: 'HooBank Website',
+    description: "I used React, JavaScript and Tailwind to build this site. Hoobank is a website that represents the next generation of banking and payment methods with a beautiful and modern user interface.",
+    image: '/images/3.png',
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/2.png',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    title: 'Fitness App',
+    description: "I used React, JavaScript, Tailwind, and APIs to create this fitness app that consists of 18 exercises for each muscle and how to train them, with brief explanations from the youtube videos in the .",
+    image: '/images/4.png',
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
@@ -43,25 +39,26 @@ export const projectsList = [
 
 export const features = [
   {
-    id: "2020",
-    icon: star,
-    title: "2020  | Learning Programming",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
     id: "2021",
     icon: star,
     title: "2021  | Learning Programming",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    content1: "I started getting into web development By learning the Basics of HTML and CSS I learned A lot and created a lot of small frontend projects and websites.",
+    content2: "In Addition, I joined the British University in Dubai in 2021 majoring Bachelor Science in Computer Science - Artificial Intelligence, and learned all the basics of programming and delved into general purpose languages such as Java.",
   },
   {
     id: "2022",
     icon: star,
-    title: "2022  | Learning Programming",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "2022  | Deeper into Web development",
+    content1: "I learned a lot this year in my field as a programmer, I learned JavaScript with all its versions and features, then React with all its features and usage, and I started designing and developing real front-end websites and applications using react.",
+    content2: "Then I delved deeper into the back end, learned Nodejs, Expressjs, Mongodb, and built apps using back-end technologies that save data from users and show it inside the database.",
+    content3: "In addition, I took the Data Structure and Algorithms course at university using the C++ language, learned C++ and got an A in this unit. I joined a programming club at the university well, learned Python with all its features and data structures, and created projects with Python.",
+  },
+  {
+    id: "2023",
+    icon: star,
+    title: "2023  | Artificial intelligence ",
+    content1: "I also learned Next.JS to create Full Stack and Tailwind CSS projects to enhance website styles. I have created and MERN memories and e-commerce projects using my experience in web development",
+    content2: "I am now learning Data Science and Machine Learning from a course offered by Samsung called Samsung AI Innovation Course.",
   },
 ];
 
