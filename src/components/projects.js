@@ -19,6 +19,7 @@ const projects = () => {
             img={obj.image}
             title={obj.title}
             description={obj.description}
+            srcLink=
           />
         ))}
       </div>
