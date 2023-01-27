@@ -1,5 +1,10 @@
 import React from 'react'
 import Bar from './Bar'
+import { FaReact, FaCss3, FaNodeJs } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io';
+import { AiOutlineHtml5 } from 'react-icons/ai';
+import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
+
 const Technologies = () => {
   return (
     <div id='Skills'>
@@ -17,22 +22,22 @@ const Technologies = () => {
           <ul class="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400">
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <FaReact className='w-[25px] h-[25px] object-contain text-white' />
               <span>React</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <SiTailwindcss className='w-[25px] h-[25px] object-contain text-white' />
               <span>Tailwind</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <AiOutlineHtml5 className='w-[25px] h-[25px] object-contain text-white' />
               <span>HTML</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <FaCss3 className='w-[25px] h-[25px] object-contain text-white' />
               <span>CSS</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
@@ -49,18 +54,22 @@ const Technologies = () => {
           <ul class="mb-8 space-y-4 text-left text-gray-500 dark:text-gray-400">
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <FaNodeJs className='w-[25px] h-[25px] object-contain text-white' />
               <span>NodeJs</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
 
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <SiExpress className='w-[25px] h-[25px] object-contain text-white' />
               <span>ExpressJS</span>
             </li>
             <li class="flex items-center space-x-3 text-2xl">
-
-              <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              <SiMongodb className='w-[25px] h-[25px] object-contain text-white' />
               <span>MongoDB</span>
+            </li>
+
+            <li class="flex items-center space-x-3 text-2xl">
+              <IoLogoJavascript className='w-[25px] h-[25px] object-contain text-white' />
+              <span>JavaScript</span>
             </li>
           </ul>
 

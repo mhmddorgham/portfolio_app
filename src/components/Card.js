@@ -1,9 +1,10 @@
 import React from 'react';
+import { BsArrowRight } from 'react-icons/bs';
 
 const Card = (props) => {
   return (
 
-    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
       <a href={props.visitLink}>
         <img class="rounded-t-lg" src={props.img} alt="" />
       </a>
@@ -13,14 +14,14 @@ const Card = (props) => {
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 py-5 ">{props.description}</p>
 
-        <div className='flex sm:flex-row flex-col justify-center items-center gap-4'>
-          <a href={props.srcLink} className=' inline-flex  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
+        <div className='flex sm:flex-row flex-col justify-center items-center gap-10'>
+          <a href={props.srcLink} className=' inline-flex gap-x-1  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
             Source
-            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            <BsArrowRight className='sm:text-[24px] text-[19px] font-bold ' />
           </a>
-          <a href={props.visitLink} className=' inline-flex  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
+          <a href={props.visitLink} className=' inline-flex gap-x-1  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
             Visit
-            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            <BsArrowRight className='sm:text-[24px] text-[19px] ' />
           </a>
         </div>
       </div >
