@@ -1,4 +1,3 @@
-import { star, facebook, instagram, linkedin, twitter } from "../assets";
 
 export const projectsList = [
   {
@@ -40,14 +39,12 @@ export const projectsList = [
 export const features = [
   {
     id: "2021",
-    icon: star,
     title: "2021  | Learning Programming",
     content1: "I started getting into web development By learning the Basics of HTML and CSS I learned A lot and created a lot of small frontend projects and websites.",
     content2: "In Addition, I joined the British University in Dubai in 2021 majoring Bachelor Science in Computer Science - Artificial Intelligence, and learned all the basics of programming and delved into general purpose languages such as Java.",
   },
   {
     id: "2022",
-    icon: star,
     title: "2022  | Deeper into Web development",
     content1: "I learned a lot this year in my field as a programmer, I learned JavaScript with all its versions and features, then React with all its features and usage, and I started designing and developing real front-end websites and applications using react.",
     content2: "Then I delved deeper into the back end, learned Nodejs, Expressjs, Mongodb, and built apps using back-end technologies that save data from users and show it inside the database.",
@@ -55,7 +52,6 @@ export const features = [
   },
   {
     id: "2023",
-    icon: star,
     title: "2023  | Artificial intelligence ",
     content1: "I also learned Next.JS to create Full Stack and Tailwind CSS projects to enhance website styles. I have created and MERN memories and e-commerce projects using my experience in web development",
     content2: "I am now learning Data Science and Machine Learning from a course offered by Samsung called Samsung AI Innovation Course.",
@@ -66,22 +62,22 @@ export const features = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    icon: "",
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: "",
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: "",
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    icon: "",
     link: "https://www.linkedin.com/",
   },
 ];
