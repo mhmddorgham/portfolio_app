@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style'
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Hero = () => {
 
@@ -32,7 +33,7 @@ const Hero = () => {
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100px] leading-[75px]'>
-            I am A Full Stack <br className='sm:block hidden' />Web Developer
+            I am A Full Stack <br className='sm:block hidden' />Web Developer <AiOutlineMenu />
           </h1>
 
         </div>
