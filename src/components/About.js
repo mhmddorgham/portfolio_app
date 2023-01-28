@@ -1,7 +1,7 @@
 import React from 'react'
 import Bar from './Bar'
 import { features } from '../constants/constants'
-import { AiOutlineHtml5, AiFillStar, AiFillFacebook, AiFillLinkedin, AiOutlineInstagram, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiOutlineHtml5, AiFillStar } from 'react-icons/ai';
 import { FaReact, FaCss3, FaNodeJs, FaJava, FaPython } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si';
@@ -28,12 +28,14 @@ const FeatureCard = ({ id, title, content1, content2, content3, index }) => (
       <p className='font-poppins font-normal text-dimWhite text-[20px] leading-[35px] mb-1 p-3'>
         {content3}
       </p>
+      {/* Icons for 2021 */}
       <div className={`flex justify-start gap-5 ml-3 ${id == 2021 ? "" : "hidden"}`}>
         <AiOutlineHtml5 className='w-[30px] h-[30px] object-contain text-white hover:bg-inherit' />
-        <FaReact className='w-[30px] h-[30px] object-contain text-white' />
+        <FaCss3 className='w-[30px] h-[30px] object-contain text-white' />
         <FaJava className='w-[30px] h-[30px] object-contain text-white' />
       </div>
 
+      {/* Icons for 2022 */}
       <div className={`flex justify-start gap-5 ml-3 ${id == 2022 ? "" : "hidden"}`}>
         <IoLogoJavascript className='w-[30px] h-[30px] object-contain text-white' />
         <FaReact className='w-[30px] h-[30px] object-contain text-white' />
@@ -41,10 +43,11 @@ const FeatureCard = ({ id, title, content1, content2, content3, index }) => (
         <SiExpress className='w-[30px] h-[30px] object-contain text-white' />
         <SiMongodb className='w-[30px] h-[30px] object-contain text-white' />
       </div>
-
+      {/* Icons for 2023 */}
       <div className={`flex justify-start gap-5 ml-3 ${id == 2023 ? "" : "hidden"}`}>
         <TbBrandNextjs className='w-[30px] h-[30px] object-contain text-white' />
         <SiTailwindcss className='w-[30px] h-[30px] object-contain text-white' />
+        <FaPython className='w-[30px] h-[30px] object-contain text-white' />
 
       </div>
 

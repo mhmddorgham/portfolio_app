@@ -40,7 +40,7 @@ export const features = [
   {
     id: "2021",
     title: "2021  | Learning Programming",
-    content1: "I started getting into web development By learning the Basics of HTML and CSS I learned A lot and created a lot of small frontend projects and websites.",
+    content1: "I started my web development journey by learning the basics of HTML and CSS I learned a lot and created a lot of small interface projects and websites.",
     content2: "In Addition, I joined the British University in Dubai in 2021 majoring Bachelor Science in Computer Science - Artificial Intelligence, and learned all the basics of programming and delved into general purpose languages such as Java.",
   },
   {
