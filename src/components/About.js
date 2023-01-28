@@ -29,14 +29,14 @@ const FeatureCard = ({ id, title, content1, content2, content3, index }) => (
         {content3}
       </p>
       {/* Icons for 2021 */}
-      <div className={`flex justify-start gap-5 ml-3 ${id == 2021 ? "" : "hidden"}`}>
+      <div className={`flex justify-start gap-5 ml-3 ${id === 2021 ? "" : "hidden"}`}>
         <AiOutlineHtml5 className='w-[30px] h-[30px] object-contain text-white hover:bg-inherit' />
         <FaCss3 className='w-[30px] h-[30px] object-contain text-white' />
         <FaJava className='w-[30px] h-[30px] object-contain text-white' />
       </div>
 
       {/* Icons for 2022 */}
-      <div className={`flex justify-start gap-5 ml-3 ${id == 2022 ? "" : "hidden"}`}>
+      <div className={`flex justify-start gap-5 ml-3 ${id === 2022 ? "" : "hidden"}`}>
         <IoLogoJavascript className='w-[30px] h-[30px] object-contain text-white' />
         <FaReact className='w-[30px] h-[30px] object-contain text-white' />
         <FaNodeJs className='w-[30px] h-[30px] object-contain text-white' />
@@ -44,7 +44,7 @@ const FeatureCard = ({ id, title, content1, content2, content3, index }) => (
         <SiMongodb className='w-[30px] h-[30px] object-contain text-white' />
       </div>
       {/* Icons for 2023 */}
-      <div className={`flex justify-start gap-5 ml-3 ${id == 2023 ? "" : "hidden"}`}>
+      <div className={`flex justify-start gap-5 ml-3 ${id === 2023 ? "" : "hidden"}`}>
         <TbBrandNextjs className='w-[30px] h-[30px] object-contain text-white' />
         <SiTailwindcss className='w-[30px] h-[30px] object-contain text-white' />
         <FaPython className='w-[30px] h-[30px] object-contain text-white' />
