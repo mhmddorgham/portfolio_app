@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Bar from './Bar'
 import { BsFillPersonFill } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
+import Swal from 'sweetalert2'
 const Contact = () => {
+  const [isClicked, setIsClicked] = useState(false)
+
+  const handelClick = (e) => {
+    setIsClicked((prev) => !prev)
+    e.preventDefault()
+
+
+  }
+
+  (async () => {
+    if (isClicked) {
+      Swal.fire(
+        'Good job!',
+        'We will contact you shortly',
+        'success'
+      )
+    }
+  })()
+
+
   return (
 
     <div>
@@ -21,7 +42,7 @@ const Contact = () => {
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
               <BsFillPersonFill className='text-white text-[18px]' />
             </div>
-            <input type="text" id="website-admin" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your Name" />
+            <input type="text" id="website-admin" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your Name" required />
           </div>
 
 
@@ -31,10 +52,10 @@ const Contact = () => {
             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
               <FiMail className='text-white text-[18px]' />
             </div>
-            <input type='emai' id="input-group-1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your Email" />
+            <input type='email' id="input-group-1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your Email" required />
           </div>
 
-          <button type='submit' className='py-2 px-4 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-3 rounded-xl' >Send</button>
+          <button type='submit' onClick={handelClick} className='py-2 px-4 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-3 rounded-xl' >Send</button>
         </form>
       </div>
     </div>
