@@ -1,11 +1,11 @@
 
 export const projectsList = [
   {
-    title: 'MERN Memories',
-    description: "I used React, Node.js, Express & MongoDB to build MERN Memories Application. It is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Netflix APP',
+    description: " A front-end Netflix clone with a Firebase back-end. I use the TMDB API for all of the data Firebase Authentication to give login functionality. In addition,used Firestore which is cloud storage with Firebase to save data. The front-end is styled with Tailwind CSS - an incredible CSS framework to save time styling your apps.",
     image: '/images/1.png',
     source: 'https://github.com/mhmddorgham',
-    visit: 'https://github.com/mhmddorgham',
+    visit: 'https://netflix-app-5d9ab.web.app/',
     id: 0,
   },
   {
