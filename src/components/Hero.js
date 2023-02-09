@@ -25,21 +25,21 @@ const Hero = () => {
       {/* Left side of the dive */}
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         {/* 20% Discount part: */}
-        <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 ">
-          <p className={`font-poppins font-normal text-dimWhite text-[27px] leading-[30.8px] ml-2`} >
+        <div className="flex flex-row items-center py-[6px] px-4  rounded-[10px] mb-2 ">
+          <p className={`font-poppins font-bold  text-gradient text-[30px] leading-[30.8px] ml-2`} >
             Hi, I am Mohamed
           </p>
         </div>
         <div className='flex flex-row justify-between items-center w-full'>
-          <h1 className='flex-1 font-poppins font-semibold ss:text-[65px] text-[40px] text-white ss:leading-[100px] leading-[75px]'>
+          <h1 className='flex-1 font-poppins font-semibold ss:text-[60px] text-[40px] text-white ss:leading-[100px] leading-[75px]'>
             I am A Full Stack <br className='sm:block hidden' />Web Developer
           </h1>
 
         </div>
 
         <div className='flex sm:flex-row flex-col justify-center items-center gap-5'>
-          <button onClick={onButtonClick} type='button' className='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-xl ' >Download CV</button>
-          <a href='#AboutMe'> <button type='button' className='py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-xl ' >About Me</button></a>
+          <button onClick={onButtonClick} type='button' className='py-4 px-6 border-solid border-white border-[4px]  font-poppins font-medium text-[18px] text-white outline-none mt-10 rounded-xl hover:text-primary  hover:bg-white transition duration-0 hover:duration-150 ' >Download CV</button>
+          <a href='#AboutMe'> <button type='button' className='py-4 px-6 border-solid border-white border-[4px] font-poppins font-medium text-[18px] text-white outline-none mt-10 rounded-xl hover:text-primary  hover:bg-white transition duration-0 hover:duration-150 ' >About Me</button></a>
         </div>
       </div>
 

@@ -15,11 +15,11 @@ const Card = (props) => {
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 py-5 ">{props.description}</p>
 
         <div className='flex sm:flex-row flex-col justify-center items-center gap-10'>
-          <a href={props.srcLink} className=' inline-flex gap-x-1  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
+          <a href={props.srcLink} className=' inline-flex gap-x-1  py-2 px-3 border-solid border-white border-[3px] hover:text-primary  hover:bg-white font-poppins font-medium text-[15px] text-white outline-none mt-10 rounded-xl transition duration-0 hover:duration-150'>
             Source
             <BsArrowRight className='sm:text-[24px] text-[19px] font-bold ' />
           </a>
-          <a href={props.visitLink} className=' inline-flex gap-x-1  py-2 px-3 bg-blue-gradient font-poppins font-medium text-[15px] text-primary outline-none mt-10 rounded-xl'>
+          <a href={props.visitLink} className=' inline-flex gap-x-1  py-2 px-3 border-solid border-white border-[3px] hover:text-primary  hover:bg-white font-poppins font-medium text-[15px] text-white outline-none mt-10 rounded-xl transition duration-0 hover:duration-150'>
             Visit
             <BsArrowRight className='sm:text-[24px] text-[19px] ' />
           </a>

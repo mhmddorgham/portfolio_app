@@ -56,7 +56,7 @@ const Contact = () => {
             <input type='email' id="input-group-1" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your Email" required />
           </div>
 
-          <button type='submit' onClick={handelClick} className='py-2 px-4 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-3 rounded-xl' >Send</button>
+          <button type='submit' onClick={handelClick} className='py-2 px-4 border-solid border-white border-[3px] font-poppins font-medium text-[18px] text-white outline-none mt-3 rounded-xl hover:text-primary  hover:bg-white transition duration-0 hover:duration-150' >Send</button>
         </form>
       </div>
     </div>
